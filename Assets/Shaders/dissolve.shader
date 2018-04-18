@@ -42,6 +42,8 @@ Shader "Shader Forge/dunesAnimationTest" {
             float4 frag(VertexOutput i) : COLOR {
 ////// Lighting:
 // hey
+// development branch making crazy changes here
+
                 float3 finalColor = 0;
                 fixed4 finalRGBA = fixed4(finalColor,1);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
