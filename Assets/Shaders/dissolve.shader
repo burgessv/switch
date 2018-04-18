@@ -43,7 +43,7 @@ Shader "Shader Forge/dunesAnimationTest" {
 ////// Lighting:
 // hey
 // development branch making crazy changes here
-
+// master branch
                 float3 finalColor = 0;
                 fixed4 finalRGBA = fixed4(finalColor,1);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
